@@ -13,7 +13,7 @@ import {
 
 const App = () => {
   return (
-    <BrowserRouter baseName="/3DPortfolio">
+    <BrowserRouter basename="/3DPortfolio">
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
