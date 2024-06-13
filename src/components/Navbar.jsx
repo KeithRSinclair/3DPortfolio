@@ -23,13 +23,7 @@ const Navbar = () => {
             Keith <span className="sm:block hidden"> | 3D Generalist </span>{" "}
           </p>
         </Link>
-        <ul className="list-none hidden sm-flex flex-row gap-10">
-          {navLinks.map((link) => {
-            <li>
-              <a href={`#${link.id}`}>{link.title}</a>
-            </li>;
-          })}
-        </ul>
+
         {/* <p className="text-red-500">
           Creating 3d Renders for product visualizations
         </p> */}
