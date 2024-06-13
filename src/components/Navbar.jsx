@@ -18,8 +18,21 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <img src={logo} alt="mylogo" className="w-14 h-14 object-contain" />
+          <p className="text-white text-[18px] font-bold cursor-pointer">
+            Keith <span className="sm:block hidden"> | 3D Generalist </span>{" "}
+          </p>
         </Link>
+        <ul className="list-none hidden sm-flex flex-row gap-10">
+          {navLinks.map((link) => {
+            <li>
+              <a href={`#${link.id}`}>{link.title}</a>
+            </li>;
+          })}
+        </ul>
+        {/* <p className="text-red-500">
+          Creating 3d Renders for product visualizations
+        </p> */}
       </div>
     </nav>
   );
