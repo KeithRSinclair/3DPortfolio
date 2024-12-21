@@ -14,10 +14,11 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi welcome to <span className="text-[#f54005ff]">Baked_Normals</span>
+            Hi I'm <span className="text-[#f54005ff]">Keith</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white`}>
-            We develop 3D visuals <br className="sm:block hidden" /> and product animations
+            I develop 3D visuals <br className="sm:block hidden" /> and product
+            animations
           </p>
         </div>
       </div>
